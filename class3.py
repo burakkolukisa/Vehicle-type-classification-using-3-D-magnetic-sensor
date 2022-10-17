@@ -3,10 +3,12 @@ from google.colab import drive
 import pandas as pd
 import numpy as np
 import tensorflow as tf
+from tensorflow.keras.utils import to_categorical
 from sklearn import preprocessing
+from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 
-csv = '/content/gdrive/My Drive/Colab Notebooks/Vehicle Classification/class3.csv'
+csv = '/content/gdrive/My Drive/Colab Notebooks/Vehicle Type Classification/class3.csv'
 drive.mount('/content/gdrive')
 
 df = pd.read_csv(csv, header=None)
@@ -32,9 +34,6 @@ print("train_X: ", train_X.shape)
 print("train_y: ", train_y.shape)
 print("test_X: ", test_X.shape)
 print("test_y: ", test_y.shape)
-
-from tensorflow.keras.utils import to_categorical
-from sklearn.preprocessing import LabelEncoder
 
 label_encoder = LabelEncoder()
 
