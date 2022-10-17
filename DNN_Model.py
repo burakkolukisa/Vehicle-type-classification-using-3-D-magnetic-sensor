@@ -64,6 +64,8 @@ early_stop = tf.keras.callbacks.EarlyStopping(monitor='accuracy', patience=8, ve
 
 model.fit(train_X, encoded_train_y, epochs=num_epochs, batch_size=newbatchsize, verbose=0, callbacks=[early_stop])
 
+model.save('DNN.h5')
+
 #DNN Predict
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 
