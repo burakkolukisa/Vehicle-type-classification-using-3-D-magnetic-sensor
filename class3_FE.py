@@ -6,8 +6,8 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
 from sklearn.preprocessing import LabelEncoder
 
-csv = '/content/gdrive/My Drive/Colab Notebooks/Vehicle Type Classification/class3_FE.csv'
-csv_class = '/content/gdrive/My Drive/Colab Notebooks/Vehicle Type Classification/class3.csv'
+csv = '/content/gdrive/My Drive/Colab Notebooks/Vehicle Classification/class3_FE.csv'
+csv_class = '/content/gdrive/My Drive/Colab Notebooks/Vehicle Classification/class3.csv'
 drive.mount('/content/gdrive')
 
 df = pd.read_csv(csv, header=None)
@@ -21,6 +21,7 @@ new_df = new_df.sample(frac=1, random_state = 20) # shuffle samples
 df = new_df 
 df = df.drop(columns=[44, 45, 46, 47, 48, 49])
 train_y = df[621]
+y = df[621]
 del df[621]
 
 train_X = df.values 
