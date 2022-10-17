@@ -20,3 +20,5 @@ If you are using this dataset, please cite these papers.
 2. Vehicle Classification 
 
 Classification algorithms are implemented using Python with the Scikit-Learn and Keras libraries.
+
+In the DNN model, for the activation function focal-loss is used with tensorflow-addons library.
