@@ -2,7 +2,7 @@ If you are using this dataset, please cite these papers.
 
 1.
 
-2. Kolukisa, B., Yildirim, V. C., Elmas, B., Ayyildiz, C., & Gungor, V. C. (2022). Deep learning approaches for vehicle type classification with 3-D magnetic sensor. Computer Networks, 217, 109326.
+2. Kolukisa B., Yildirim V.C., Elmas B., Ayyildiz C., Gungor V.C. (2022). Deep learning approaches for vehicle type classification with 3-D magnetic sensor. Computer Networks, 217, 109326.
 
 1. Dataset
 
