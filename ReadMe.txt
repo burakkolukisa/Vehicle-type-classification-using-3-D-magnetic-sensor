@@ -18,6 +18,8 @@ Classification algorithms are implemented using Python with the Scikit-Learn and
 
 The focal-loss is used with the tensorflow-addons library for the loss function of the DNN model.
 
+The DNN model applied on this study is avaible as "DNN_Model.py".
+
 The hyper-parameter codes of the DNN model are available as "DNN_hyper-parameter.py".
 
 The best scores obtained with the DNN model are stored under the DNN models file. You can directly use these models and run "DNN_LoadModel.py" to obtain the results.
