@@ -1,4 +1,4 @@
-1. DATASET
+DATASET
 
 A 3-D magnetic sensor is built and mounted on a single-lane road. 
 While the vehicle passes over the sensor, the 3-D magnetic sensor records the disturbances due to the metal materials in the vehicle. 
@@ -15,10 +15,3 @@ If you are using this dataset, please cite these papers.
 1.
 
 2. Kolukisa, B., Yildirim, V. C., Elmas, B., Ayyildiz, C., & Gungor, V. C. (2022). Deep learning approaches for vehicle type classification with 3-D magnetic sensor. Computer Networks, 217, 109326.
-
-
-2. Vehicle Classification 
-
-Classification algorithms are implemented using Python with the Scikit-Learn and Keras libraries.
-
-In the DNN model, for the activation function focal-loss is used with tensorflow-addons library.
