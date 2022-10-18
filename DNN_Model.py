@@ -60,9 +60,9 @@ encoded_test_y = to_categorical(integer_encoded_test_y)
 #model = build_model_DNN(featuresize, newneurons, newneurons2, newdrop, newdrop2, newlearningrate)
 model = build_model_DNN(30, 128, 32, 0.1, 0.3, 0.01)
 
-early_stop = tf.keras.callbacks.EarlyStopping(monitor='accuracy', patience=8, verbose=0, restore_best_weights=True)
+early_stop = tf.keras.callbacks.EarlyStopping(monitor='accuracy', patience=5, verbose=0, restore_best_weights=True)
 
-model.fit(train_X, encoded_train_y, epochs=num_epochs, batch_size=newbatchsize, verbose=0, callbacks=[early_stop])
+model.fit(train_X, encoded_train_y, epochs=num_epochs, batch_size=8, verbose=0, callbacks=[early_stop])
 
 model.save('DNN.h5')
 
