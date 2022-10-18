@@ -92,7 +92,7 @@ for i in range(1, 44):
   drop = [0.1, 0.3, 0.5]
   drop2 = [0.1, 0.3, 0.5]
   batchsize = [2, 4, 6, 8]
-  lr = [0.01]
+  lr = [10e-2, 10e-3, 10e-4]
 
   for n in neurons:
     for n2 in neurons2:
