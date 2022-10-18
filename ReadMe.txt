@@ -10,7 +10,7 @@ A 3-D magnetic sensor is built and mounted on a single-lane road. While the vehi
 
 The dataset and the feature extracted dataset are shared as "class3.csv" and "class3_FE.csv" respectively.
 
-For vehicle type classification, first apply "class3.py" or "class3_FE.py", and the dataset is ready for running classification.
+For vehicle type classification, first apply "class3.py" or "class3_FE.py", and the dataset is ready for running classifier.
 
 2. Vehicle Classification
 
