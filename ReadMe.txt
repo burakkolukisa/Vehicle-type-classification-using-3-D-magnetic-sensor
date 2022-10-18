@@ -20,11 +20,8 @@ For the DNN model's loss function, the focal-loss is set up with the help of the
 
 The DNN model applied in this study is available as "DNN_model.py".
 
-The DNN model training on a train set and testing on a test set is available as "DNN_example.py".
-
-The hyper-parameter codes of the DNN model are available as "DNN_hyper-parameter.py".
+The hyper-parameter codes of the DNN model are available as "DNN_hyper-parameter.py". The training set is divided into five parts, and the best validation scores are printed, and using the best parameters, models are retrained with all the dataset as available on "DNN_example".
 
 The best scores obtained with the DNN model are stored in the format of ".h5" files. You can directly use these models and run "DNN_load-model.py" to obtain the results.
-
 
 During the evaluation, we used GPU on Google Colab Pro. As a result, the DNN results may vary.
