@@ -27,4 +27,4 @@ early_stop = tf.keras.callbacks.EarlyStopping(monitor='accuracy', patience=5, ve
 
 model.fit(train_X, encoded_train_y, epochs=num_epochs, batch_size=8, verbose=0, callbacks=[early_stop])
 
-y_pred = model.predict(validation_X)
+y_pred = model.predict(test_X)
