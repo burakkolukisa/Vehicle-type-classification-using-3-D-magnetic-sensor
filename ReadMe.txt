@@ -24,4 +24,4 @@ The hyper-parameter codes of the DNN model are available as "DNN_hyper-parameter
 
 The best scores obtained with the DNN model are stored in the format of ".h5" files. You can directly use these models and run "DNN_load-model.py" to obtain the results.
 
-During the evaluation, we used GPU on Google Colab Pro. As a result, the DNN results may vary.
+During the evaluation, we used GPU on Google Colab Pro.
