@@ -1,8 +1,8 @@
 If you are using this dataset or model, please cite these papers.
 
-1. Kolukisa, B., Yildirim, V. C., Ayyildiz, C., & Gungor, V. C. (2022). A deep neural network approach with hyper-parameter optimization for vehicle type classification using 3-D magnetic sensor. Computer Standards & Interfaces, 103703.
+1. Kolukisa, B., Yildirim, V. C., Ayyildiz, C., & Gungor, V. C. (2022). A deep neural network approach with hyper-parameter optimization for vehicle type classification using 3-D magnetic sensor. Computer Standards & Interfaces, 103703, doi: https://doi.org/10.1016/j.csi.2022.103703.
 
-2. Kolukisa, B., Yildirim, V. C., Elmas, B., Ayyildiz, C., & Gungor, V. C. (2022). Deep learning approaches for vehicle type classification with 3-D magnetic sensor. Computer Networks, 217, 109326.
+2. Kolukisa, B., Yildirim, V. C., Elmas, B., Ayyildiz, C., & Gungor, V. C. (2022). Deep learning approaches for vehicle type classification with 3-D magnetic sensor. Computer Networks, 217, 109326, https://doi.org/10.1016/j.comnet.2022.109326
 
 
 1. Dataset
